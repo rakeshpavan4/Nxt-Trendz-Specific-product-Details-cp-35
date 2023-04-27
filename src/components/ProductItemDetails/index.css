@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.product-details-success-view {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+@media screen and (max-width: 576px) {
+  .product-image {
+    border-radius: 16px;
+    height: 50px;
+    margin-left: 20px;
+    width: 350px;
+  }
+  .product-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .similar-products-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.product-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.product-image {
+  border-radius: 16px;
+  height: 500px;
+  margin-left: 10px;
+}
+.label-value-container {
+  display: flex;
+}
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.rating-and-reviews-count {
+  display: flex;
+  align-items: center;
+}
+.rating-container {
+  height: 40px;
+  margin-right: 10px;
+}
+.quantity-controller-button {
+  border: none;
+  background-color: transparent;
+}
+.button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: none;
+  cursor: pointer;
+}
+.similar-products-list {
+  display: flex;
+}
+.label {
+  color: black;
+  font-weight: bold;
+}
+.price-details {
+  color: black;
+  font-weight: bold;
+}
